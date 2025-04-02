@@ -8,7 +8,7 @@ define("ROOT", str_replace("\\", "/", dirname(__FILE__)) . "/");
 // return the application directory name.
 define("ROOT_DIR_NAME", basename(ROOT));
 
-define("SITE_NAME", "   SPENDY");
+define("SITE_NAME", "   Personal Finance Tracker");
 
 
 // Get Site Address Dynamically
@@ -35,7 +35,7 @@ define("FORBIDDEN", 403);
 define("IMG_DIR",  "assets/images/");
 define("FONTS_DIR",  "assets/fonts/");
 define("SITE_FAVICON", IMG_DIR . "favicon.png");
-define("SITE_LOGO", IMG_DIR . "logo.png");
+define("SITE_LOGO", IMG_DIR . "report.png");
 
 define("CSS_DIR", SITE_ADDR . "assets/css/");
 define("JS_DIR", SITE_ADDR . "assets/js/");
