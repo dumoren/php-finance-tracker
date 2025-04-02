@@ -1,0 +1,8 @@
+vendor/
+*.log
+.env
+.DS_Store
+.idea/
+node_modules/
+*.sqlite
+*.bak
